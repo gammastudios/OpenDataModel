@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.App {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.navbar {
+  /* Styles for your navbar */
+}
+
+.left-hand-bar {
+  /* Additional styles for left-hand bar if needed */
+}
+
+.table-canvas {
+  /* Additional styles for table canvas if needed */
+}
