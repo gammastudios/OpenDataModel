@@ -1,0 +1,10 @@
+Table_1:
+  name: customer
+  fields:
+    id: integer
+    first_name: string
+Table_2:
+  name: account
+  fields:
+    id: integer
+    account_number: string
