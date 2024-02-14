@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.App {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.navbar {
+  /* Styles for your navbar */
+}
+
+.left-hand-bar {
+  /* Additional styles for left-hand bar if needed */
+  background-color: black;
+  width: 25%;
+  overflow: auto;
+  padding: 0;
+}
+
+.table-canvas {
+  /* Additional styles for table canvas if needed */
+}
+
+.terminal-input {
+  background-color: black;
+  color: white;
+  width: 100%;
+  height: 100%;
+  padding: 0px;
+  border: none;
+  resize: none;
+  font-family: 'Courier New', Courier, monospace;
+  outline: none;
+}
